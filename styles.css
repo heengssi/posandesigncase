@@ -1,0 +1,143 @@
+/* 영문·숫자·기호 전용 Pretendard (공식 dynamic-subset 조각 중 라틴 영역만, 띄어쓰기는 KoPub 그대로). 한글은 KoPub돋움. */
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.71.woff2') format('woff2');unicode-range:U+A2-A5, U+A7-A8, U+AA, U+AC, U+B1-B3, U+B6, U+B8-BA, U+BC-BE, U+C0, U+C2, U+C6-CB, U+CE-D0, U+D4, U+D8-D9, U+DB-DC, U+DE-DF, U+E6, U+EB, U+EE-F0, U+F4, U+F7-F9, U+FB, U+FE-FF, U+2010, U+2015-2016, U+2018-2019, U+201B, U+201F-2021, U+2025, U+2030, U+2033-2036, U+203C, U+203E, U+2042}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.72.woff2') format('woff2');unicode-range:U+E8}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.74.woff2') format('woff2');unicode-range:U+2032}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.75.woff2') format('woff2');unicode-range:U+B4, U+20AC}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.78.woff2') format('woff2');unicode-range:U+2039-203A}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.79.woff2') format('woff2');unicode-range:U+B0, U+E9}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.80.woff2') format('woff2');unicode-range:U+E0, U+E2}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.81.woff2') format('woff2');unicode-range:U+24, U+60}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.82.woff2') format('woff2');unicode-range:U+D7, U+EA, U+FC}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.83.woff2') format('woff2');unicode-range:U+E7, U+2022, U+203B}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.85.woff2') format('woff2');unicode-range:U+5E}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.86.woff2') format('woff2');unicode-range:U+3C-3D, U+2026}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.87.woff2') format('woff2');unicode-range:U+23, U+25, U+5F, U+A9}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.88.woff2') format('woff2');unicode-range:U+26, U+2B, U+3E, U+40, U+7E}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.89.woff2') format('woff2');unicode-range:U+7C}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:300;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Light.subset.91.woff2') format('woff2');unicode-range:U+21-22, U+27-2A, U+2C-3B, U+3F, U+41-5D, U+61-7B, U+7D, U+A1, U+AB, U+AD-AE, U+B7, U+BB, U+BF, U+2013-2014, U+201C-201D, U+2122}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.71.woff2') format('woff2');unicode-range:U+A2-A5, U+A7-A8, U+AA, U+AC, U+B1-B3, U+B6, U+B8-BA, U+BC-BE, U+C0, U+C2, U+C6-CB, U+CE-D0, U+D4, U+D8-D9, U+DB-DC, U+DE-DF, U+E6, U+EB, U+EE-F0, U+F4, U+F7-F9, U+FB, U+FE-FF, U+2010, U+2015-2016, U+2018-2019, U+201B, U+201F-2021, U+2025, U+2030, U+2033-2036, U+203C, U+203E, U+2042}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.72.woff2') format('woff2');unicode-range:U+E8}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.74.woff2') format('woff2');unicode-range:U+2032}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.75.woff2') format('woff2');unicode-range:U+B4, U+20AC}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.78.woff2') format('woff2');unicode-range:U+2039-203A}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.79.woff2') format('woff2');unicode-range:U+B0, U+E9}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.80.woff2') format('woff2');unicode-range:U+E0, U+E2}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.81.woff2') format('woff2');unicode-range:U+24, U+60}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.82.woff2') format('woff2');unicode-range:U+D7, U+EA, U+FC}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.83.woff2') format('woff2');unicode-range:U+E7, U+2022, U+203B}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.85.woff2') format('woff2');unicode-range:U+5E}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.86.woff2') format('woff2');unicode-range:U+3C-3D, U+2026}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.87.woff2') format('woff2');unicode-range:U+23, U+25, U+5F, U+A9}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.88.woff2') format('woff2');unicode-range:U+26, U+2B, U+3E, U+40, U+7E}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.89.woff2') format('woff2');unicode-range:U+7C}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:400;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Regular.subset.91.woff2') format('woff2');unicode-range:U+21-22, U+27-2A, U+2C-3B, U+3F, U+41-5D, U+61-7B, U+7D, U+A1, U+AB, U+AD-AE, U+B7, U+BB, U+BF, U+2013-2014, U+201C-201D, U+2122}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.71.woff2') format('woff2');unicode-range:U+A2-A5, U+A7-A8, U+AA, U+AC, U+B1-B3, U+B6, U+B8-BA, U+BC-BE, U+C0, U+C2, U+C6-CB, U+CE-D0, U+D4, U+D8-D9, U+DB-DC, U+DE-DF, U+E6, U+EB, U+EE-F0, U+F4, U+F7-F9, U+FB, U+FE-FF, U+2010, U+2015-2016, U+2018-2019, U+201B, U+201F-2021, U+2025, U+2030, U+2033-2036, U+203C, U+203E, U+2042}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.72.woff2') format('woff2');unicode-range:U+E8}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.74.woff2') format('woff2');unicode-range:U+2032}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.75.woff2') format('woff2');unicode-range:U+B4, U+20AC}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.78.woff2') format('woff2');unicode-range:U+2039-203A}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.79.woff2') format('woff2');unicode-range:U+B0, U+E9}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.80.woff2') format('woff2');unicode-range:U+E0, U+E2}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.81.woff2') format('woff2');unicode-range:U+24, U+60}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.82.woff2') format('woff2');unicode-range:U+D7, U+EA, U+FC}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.83.woff2') format('woff2');unicode-range:U+E7, U+2022, U+203B}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.85.woff2') format('woff2');unicode-range:U+5E}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.86.woff2') format('woff2');unicode-range:U+3C-3D, U+2026}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.87.woff2') format('woff2');unicode-range:U+23, U+25, U+5F, U+A9}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.88.woff2') format('woff2');unicode-range:U+26, U+2B, U+3E, U+40, U+7E}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.89.woff2') format('woff2');unicode-range:U+7C}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:500;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Medium.subset.91.woff2') format('woff2');unicode-range:U+21-22, U+27-2A, U+2C-3B, U+3F, U+41-5D, U+61-7B, U+7D, U+A1, U+AB, U+AD-AE, U+B7, U+BB, U+BF, U+2013-2014, U+201C-201D, U+2122}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.71.woff2') format('woff2');unicode-range:U+A2-A5, U+A7-A8, U+AA, U+AC, U+B1-B3, U+B6, U+B8-BA, U+BC-BE, U+C0, U+C2, U+C6-CB, U+CE-D0, U+D4, U+D8-D9, U+DB-DC, U+DE-DF, U+E6, U+EB, U+EE-F0, U+F4, U+F7-F9, U+FB, U+FE-FF, U+2010, U+2015-2016, U+2018-2019, U+201B, U+201F-2021, U+2025, U+2030, U+2033-2036, U+203C, U+203E, U+2042}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.72.woff2') format('woff2');unicode-range:U+E8}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.74.woff2') format('woff2');unicode-range:U+2032}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.75.woff2') format('woff2');unicode-range:U+B4, U+20AC}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.78.woff2') format('woff2');unicode-range:U+2039-203A}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.79.woff2') format('woff2');unicode-range:U+B0, U+E9}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.80.woff2') format('woff2');unicode-range:U+E0, U+E2}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.81.woff2') format('woff2');unicode-range:U+24, U+60}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.82.woff2') format('woff2');unicode-range:U+D7, U+EA, U+FC}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.83.woff2') format('woff2');unicode-range:U+E7, U+2022, U+203B}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.85.woff2') format('woff2');unicode-range:U+5E}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.86.woff2') format('woff2');unicode-range:U+3C-3D, U+2026}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.87.woff2') format('woff2');unicode-range:U+23, U+25, U+5F, U+A9}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.88.woff2') format('woff2');unicode-range:U+26, U+2B, U+3E, U+40, U+7E}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.89.woff2') format('woff2');unicode-range:U+7C}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:600;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-SemiBold.subset.91.woff2') format('woff2');unicode-range:U+21-22, U+27-2A, U+2C-3B, U+3F, U+41-5D, U+61-7B, U+7D, U+A1, U+AB, U+AD-AE, U+B7, U+BB, U+BF, U+2013-2014, U+201C-201D, U+2122}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.71.woff2') format('woff2');unicode-range:U+A2-A5, U+A7-A8, U+AA, U+AC, U+B1-B3, U+B6, U+B8-BA, U+BC-BE, U+C0, U+C2, U+C6-CB, U+CE-D0, U+D4, U+D8-D9, U+DB-DC, U+DE-DF, U+E6, U+EB, U+EE-F0, U+F4, U+F7-F9, U+FB, U+FE-FF, U+2010, U+2015-2016, U+2018-2019, U+201B, U+201F-2021, U+2025, U+2030, U+2033-2036, U+203C, U+203E, U+2042}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.72.woff2') format('woff2');unicode-range:U+E8}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.74.woff2') format('woff2');unicode-range:U+2032}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.75.woff2') format('woff2');unicode-range:U+B4, U+20AC}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.78.woff2') format('woff2');unicode-range:U+2039-203A}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.79.woff2') format('woff2');unicode-range:U+B0, U+E9}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.80.woff2') format('woff2');unicode-range:U+E0, U+E2}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.81.woff2') format('woff2');unicode-range:U+24, U+60}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.82.woff2') format('woff2');unicode-range:U+D7, U+EA, U+FC}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.83.woff2') format('woff2');unicode-range:U+E7, U+2022, U+203B}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.85.woff2') format('woff2');unicode-range:U+5E}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.86.woff2') format('woff2');unicode-range:U+3C-3D, U+2026}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.87.woff2') format('woff2');unicode-range:U+23, U+25, U+5F, U+A9}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.88.woff2') format('woff2');unicode-range:U+26, U+2B, U+3E, U+40, U+7E}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.89.woff2') format('woff2');unicode-range:U+7C}
+@font-face{font-family:'Posan Latin';font-style:normal;font-weight:700;font-display:swap;src:url('https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff2-dynamic-subset/Pretendard-Bold.subset.91.woff2') format('woff2');unicode-range:U+21-22, U+27-2A, U+2C-3B, U+3F, U+41-5D, U+61-7B, U+7D, U+A1, U+AB, U+AD-AE, U+B7, U+BB, U+BF, U+2013-2014, U+201C-201D, U+2122}
+@font-face{font-family:'KoPub Dotum';src:url('./assets/site/KoPubDotum-Light.woff2') format('woff2');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:'KoPub Dotum';src:url('./assets/site/KoPubDotum-Medium.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'KoPub Dotum';src:url('./assets/site/KoPubDotum-Bold.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+:root{--red:#ed1c24;--font:'Posan Latin','KoPub Dotum',sans-serif}
+*{box-sizing:border-box}
+html,body{margin:0;background:#fff}
+body{min-width:320px;font-family:var(--font);color:#121212;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+button{font:inherit;color:inherit}
+
+/* Figma 프레임(1440px)을 그대로 그리는 무대. 1440보다 좁으면 비율대로 축소한다. */
+.frame{--s:1;--k:1;--offset:0px;position:relative;width:100%;height:calc(var(--h) * var(--k) * var(--s));overflow:hidden}
+.stage{position:absolute;top:0;left:var(--offset);width:calc(1440px * var(--k));transform:scale(var(--s));transform-origin:0 0}
+.stage>*{position:absolute;margin:0}
+.t{white-space:pre-wrap;word-break:normal;overflow-wrap:anywhere}
+.t--hug{white-space:pre}
+.t .ln{display:block;white-space:nowrap}
+.t .ln--j{text-align:justify;text-align-last:justify}
+/* 넓은 화면: 글 상자가 넓어지므로 Figma 줄 대신 원문 그대로 다시 흘려 쓴다(문단 줄바꿈은 유지) */
+.is-wide .t .ln{display:inline;white-space:normal}
+.is-wide .t .ln--br::after{content:"\A";white-space:pre}
+.is-wide .t .ln--empty{display:block}
+.v svg{display:block;width:100%;height:100%;overflow:visible}
+[data-route],[data-menu]{cursor:pointer}
+[data-route]:focus-visible,[data-menu]:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+.t[data-route]:hover{opacity:.6}
+
+/* 햄버거(시안 C)로 여는 화면 목록 */
+.menu-panel{position:fixed;z-index:60;inset:0;padding:24px;overflow:auto;background:#fff;opacity:0;visibility:hidden;transition:.2s}
+.menu-panel.is-open{opacity:1;visibility:visible}
+.menu-panel ul{margin:48px 0 0;padding:0;list-style:none}
+.menu-panel li button{padding:10px 0;border:0;background:none;font-family:var(--font);font-size:clamp(18px,3vw,28px);font-weight:500;cursor:pointer}
+.menu-panel li button.is-active{color:var(--red)}
+.menu-close{float:right;border:0;background:none;font-family:var(--font);cursor:pointer}
+
+/* 검토용 시안 A/B/C 전환 (공유용, 디자인 아님) */
+.concept-switcher{position:fixed;z-index:80;left:50%;bottom:max(14px,env(safe-area-inset-bottom));display:flex;gap:5px;align-items:center;padding:7px;transform:translateX(-50%);color:#fff;background:rgba(15,15,15,.95);border:1px solid #444;border-radius:14px;box-shadow:0 12px 35px rgba(0,0,0,.25);font-family:var(--font)}
+.concept-switcher__label{padding:0 8px;color:#888;font-size:9px}
+.concept-switcher button{display:flex;gap:7px;align-items:center;padding:6px 9px 6px 6px;border:1px solid transparent;border-radius:9px;color:#aaa;background:none;cursor:pointer}
+.concept-switcher button b{display:grid;width:26px;height:26px;place-items:center;color:#111;background:#fff;border-radius:7px}
+.concept-switcher button span{font-size:11px}
+.concept-switcher button.is-active{color:#fff;background:#333;border-color:#555}
+.concept-switcher button.is-active b{color:#fff;background:var(--red)}
+@media(max-width:560px){.concept-switcher{width:calc(100% - 20px);justify-content:center}.concept-switcher__label{display:none}.concept-switcher button{flex:1;justify-content:center}.concept-switcher button span{font-size:10px}}
+.hit{padding:0;border:0;background:transparent}
+
+/* 화면(모니터) 기준으로 고정되는 플로팅 버튼·연락처. 여백은 시안별 메뉴 왼쪽 선과 같고, 1440보다 좁으면 함께 축소 */
+.dock{--s:1;--k:1;--offset:0px;position:fixed;z-index:50;left:calc(var(--offset) + var(--margin) * var(--s) * var(--k) * 1px);bottom:calc(var(--margin) * var(--s) * var(--k) * 1px);transform:scale(var(--s));transform-origin:0 100%}
+.dock>*{--k:1;position:absolute;margin:0}
+/* 화면 고정 영역 안쪽 배치는 넓은 화면에서도 늘리지 않는다(위치만 --k로 이동) */
+
+/* 시안 C 햄버거 메뉴 (Figma 1568:16952). 1440 기준 좌표를 --s로 축소, 패널은 화면 오른쪽 끝까지 */
+.c-menu{--s:1;--k:1;--offset:0px;position:fixed;z-index:60;inset:0;visibility:hidden;opacity:0;transition:opacity .2s,visibility .2s}
+.c-menu.is-open{visibility:visible;opacity:1}
+.c-menu__dim{position:absolute;inset:0;background:rgba(0,0,0,.1)}
+.c-menu__panel{position:absolute;top:0;bottom:0;right:0;left:calc(var(--offset) + 1205px * var(--s) * var(--k));background:rgba(255,255,255,.9);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);overflow-y:auto}
+.c-menu__inner{position:absolute;left:0;top:0;width:calc(235px * var(--k));transform:scale(var(--s));transform-origin:0 0}
+.c-menu__close{position:absolute;left:calc(208px * var(--k) - 12px);top:23px;width:24px;height:24px;padding:0;border:0;background:none;cursor:pointer}
+.c-menu__close svg{display:block}
+.c-menu__item{position:absolute;left:28px;padding:0;border:0;background:none;font-family:var(--font);font-weight:500;font-size:16px;line-height:16px;color:#121212;white-space:nowrap;cursor:pointer}
+.c-menu__item.is-active{color:#ee1720}
+button.c-menu__item:hover{opacity:.6}
+span.c-menu__item{cursor:default}
