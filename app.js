@@ -192,7 +192,14 @@ function renderVector(node, concept) {
 // 시안 A 하위 메뉴(About Us·인사말 등, 레이어 이름 'Menu / …')는 Figma에서 KoPubWorld돋움을 쓸 수 없어 임시로 Noto Sans KR이다.
 // 상위 메뉴와 같은 KoPub돋움 Medium으로 그린다(크기·행간·위치는 Figma 그대로).
 // 시안 C 페이지 부제목('Page Subtitle …')도 같은 이유로 Figma에는 임시 Noto Sans KR이라 KoPub돋움 Medium으로 그린다.
-const adjustNode = node => (
+// 시안 A·B 왼쪽 메뉴 글자는 14px로 맞춘다(Figma 시안 A는 15px, 행간·위치는 Figma 그대로).
+const LEFT_MENU_SIZE = 14;
+const isLeftMenuText = node => node[0] === 't' && ['A', 'B'].includes(state.concept) && node[1] < 200 && node[2] > 80 && node[2] < 700
+  && !/^(카카오톡|02-6232-8100)$/.test(String(node[12]).trim());
+const adjustNode = node => (isLeftMenuText(node) && node[6] !== LEFT_MENU_SIZE
+  ? styleNode(Object.assign([...node], { 6: LEFT_MENU_SIZE }))
+  : styleNode(node));
+const styleNode = node => (
   node[0] === 't' && /^N/.test(node[5]) && (
     (state.concept === 'A' && node[1] < 200 && /^Menu \//.test(node[13] || ''))
     || (state.concept === 'C' && /^Page Subtitle/.test(node[13] || ''))
